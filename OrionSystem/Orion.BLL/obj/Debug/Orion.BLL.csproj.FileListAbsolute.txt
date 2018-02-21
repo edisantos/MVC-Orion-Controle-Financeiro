@@ -1,0 +1,9 @@
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.BLL\bin\Debug\Orion.BLL.dll
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.BLL\bin\Debug\Orion.BLL.pdb
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.BLL\bin\Debug\OrionSystem.BLL.dll
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.BLL\bin\Debug\OrionSystem.BLL.pdb
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.BLL\obj\Debug\Orion.BLL.csprojResolveAssemblyReference.cache
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.BLL\obj\Debug\Orion.BLL.dll
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.BLL\obj\Debug\Orion.BLL.pdb
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.BLL\bin\Debug\Orion.DAL.dll
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.BLL\bin\Debug\Orion.DAL.pdb

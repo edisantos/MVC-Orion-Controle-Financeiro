@@ -1,0 +1,5 @@
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.DAL\bin\Debug\Orion.DAL.dll
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.DAL\bin\Debug\Orion.DAL.pdb
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.DAL\obj\Debug\Orion.DAL.csprojResolveAssemblyReference.cache
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.DAL\obj\Debug\Orion.DAL.dll
+G:\Github\Projetos\Orion Sistema\OrionSystem\Orion.DAL\obj\Debug\Orion.DAL.pdb

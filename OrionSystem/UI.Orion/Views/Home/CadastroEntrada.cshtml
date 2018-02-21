@@ -1,0 +1,70 @@
+﻿@model Orion.DAL.EntradaConta
+
+@{
+    ViewBag.Title = "CadastroEntrada";
+}
+
+<div class="container">
+     
+    <h3>Orion - Controle Financeiro</h3>
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">Nota:</h4>
+            <p class="list-group-item-text">Entre com seu salario,Vale ou outros tipos de rendas.</p>
+        </a>
+    </div>
+    <h2>@ViewBag.UsuarioLogado</h2>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken();
+        <div class="form-horizontal">
+            @Html.ValidationSummary(true, "", new { @class ="text-danfer"})
+            
+            <div class="form-group">
+                <label>Nome</label>
+                <div class="col=md-10">
+                    @Html.TextBoxFor(m=>m.Nome, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Tipo Conta</label>
+                <div class="col=md-10">
+                    @Html.TextBoxFor(m => m.TipoEntrada, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Valor Entrada</label>
+                <div class="col=md-10">
+                    @Html.TextBoxFor(m => m.Valor, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Comentário</label>
+                <div class="col=md-10">
+                    @Html.TextAreaFor(m => m.Comentario, new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+               
+                <div class="col=md-10">
+                   <button type="submit" name="Registrar" class="btn btn-success">
+                       <span class="glyphicon glyphicon-pencil"> Registrar</span>
+                   </button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="text-danger">
+                    @ViewBag.MessageError
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="text-success">
+                    @ViewBag.MessageSuccess
+                </div>
+            </div>
+        </div>
+    }
+
+</div>
+
+
